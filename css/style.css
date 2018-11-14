@@ -78,6 +78,7 @@ hr {
 				letter-spacing: 0px;
 				-webkit-transition: all .5s;
 				transition: all .5s;}
+	.navbar-header  a:visited{color:#e52f3c!important}
 	.navbar-nav li a,.dropdown-menu li a{font-size: 13px;text-transform: uppercase;font-weight: 600;color: #1f386e!important;}
 	.navbar-nav li a:hover,.dropdown-menu li a:hover{background-color:#d5d5f3!important }
 	.dropdown-menu li a{padding:7px 12px}
