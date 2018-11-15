@@ -1,4 +1,5 @@
 /* Hiding animated element,animation delay class */
+/* Way point is a class added to give animation effect on element on page scroll */
 .waypoint {visibility:hidden;animation-duration: 1s;}
 .delay-200ms{animation-delay: 200ms;}
 .delay-400ms{animation-delay: 400ms;}
@@ -64,7 +65,7 @@ hr {
 /* Navigation */
 
 	.navbar{border-radius: 0;
-			filter:opacity(75%);
+			filter:opacity(95%);
 			font-family: montserrat;
 			letter-spacing: 2px;
 			margin-bottom: 0;
@@ -236,16 +237,22 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #services {
 	padding: 100px 0;
 }
+
 #services h3{display: inline-block}
 #services .service-media {
 	margin: 10px;
 }
-#services .service-media img {
+#services .li-outside{list-style-position: outside!important;}
+#services .service-media img{
 	position: relative;
 	display: block;
 	width: 100%;
 	height: auto;
+	box-shadow: 2px 2px 15px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 2px 15px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 15px -1px rgba(0,0,0,0.75);
 }
+
 #services .service-desc {
 	margin: 10px 10px 20px;
 }
@@ -276,6 +283,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .portfolio-item .hover-bg {
 	overflow: hidden;
 	position: relative;
+	box-shadow: 2px 2px 15px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 2px 15px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 15px -1px rgba(0,0,0,0.75);
 }
 .hover-bg .hover-text {
 	position: absolute;
